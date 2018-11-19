@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		A9A4E2C321A2C8830083E8D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4E2C221A2C8830083E8D9 /* AppDelegate.swift */; };
-		A9A4E2C521A2C8830083E8D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4E2C421A2C8830083E8D9 /* ViewController.swift */; };
+		A9A4E2C521A2C8830083E8D9 /* Starter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4E2C421A2C8830083E8D9 /* Starter.swift */; };
 		A9A4E2C821A2C8830083E8D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A4E2C621A2C8830083E8D9 /* Main.storyboard */; };
 		A9A4E2CA21A2C8850083E8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A4E2C921A2C8850083E8D9 /* Assets.xcassets */; };
 		A9A4E2CD21A2C8850083E8D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A4E2CB21A2C8850083E8D9 /* LaunchScreen.storyboard */; };
+		A9A4E2D521A2C9780083E8D9 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4E2D421A2C9780083E8D9 /* Story.swift */; };
+		A9F38EA821A2EC6200626558 /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9F38EA321A2EC6200626558 /* madlib2_university.txt */; };
+		A9F38EA921A2EC6200626558 /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9F38EA421A2EC6200626558 /* madlib3_clothes.txt */; };
+		A9F38EAA21A2EC6200626558 /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9F38EA521A2EC6200626558 /* madlib0_simple.txt */; };
+		A9F38EAB21A2EC6200626558 /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9F38EA621A2EC6200626558 /* madlib1_tarzan.txt */; };
+		A9F38EAC21A2EC6200626558 /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9F38EA721A2EC6200626558 /* madlib4_dance.txt */; };
+		A9F38EB021A2F8FA00626558 /* Storys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F38EAF21A2F8FA00626558 /* Storys.swift */; };
+		A9F38EB221A2F91C00626558 /* WordTyper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F38EB121A2F91C00626558 /* WordTyper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A9A4E2BF21A2C8830083E8D9 /* Wessel-pset2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wessel-pset2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A4E2C221A2C8830083E8D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9A4E2C421A2C8830083E8D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9A4E2C421A2C8830083E8D9 /* Starter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starter.swift; sourceTree = "<group>"; };
 		A9A4E2C721A2C8830083E8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9A4E2C921A2C8850083E8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A4E2CC21A2C8850083E8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9A4E2CE21A2C8850083E8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A4E2D421A2C9780083E8D9 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Story.swift; path = ../../../../../Downloads/madlibs_ios/Story.swift; sourceTree = "<group>"; };
+		A9F38EA321A2EC6200626558 /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib2_university.txt; path = ../../../../../Downloads/madlibs_ios/madlib2_university.txt; sourceTree = "<group>"; };
+		A9F38EA421A2EC6200626558 /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib3_clothes.txt; path = ../../../../../Downloads/madlibs_ios/madlib3_clothes.txt; sourceTree = "<group>"; };
+		A9F38EA521A2EC6200626558 /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib0_simple.txt; path = ../../../../../Downloads/madlibs_ios/madlib0_simple.txt; sourceTree = "<group>"; };
+		A9F38EA621A2EC6200626558 /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib1_tarzan.txt; path = ../../../../../Downloads/madlibs_ios/madlib1_tarzan.txt; sourceTree = "<group>"; };
+		A9F38EA721A2EC6200626558 /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib4_dance.txt; path = ../../../../../Downloads/madlibs_ios/madlib4_dance.txt; sourceTree = "<group>"; };
+		A9F38EAF21A2F8FA00626558 /* Storys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storys.swift; sourceTree = "<group>"; };
+		A9F38EB121A2F91C00626558 /* WordTyper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTyper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +71,19 @@
 			isa = PBXGroup;
 			children = (
 				A9A4E2C221A2C8830083E8D9 /* AppDelegate.swift */,
-				A9A4E2C421A2C8830083E8D9 /* ViewController.swift */,
 				A9A4E2C621A2C8830083E8D9 /* Main.storyboard */,
+				A9A4E2C421A2C8830083E8D9 /* Starter.swift */,
+				A9F38EB121A2F91C00626558 /* WordTyper.swift */,
+				A9F38EAF21A2F8FA00626558 /* Storys.swift */,
 				A9A4E2C921A2C8850083E8D9 /* Assets.xcassets */,
 				A9A4E2CB21A2C8850083E8D9 /* LaunchScreen.storyboard */,
 				A9A4E2CE21A2C8850083E8D9 /* Info.plist */,
+				A9A4E2D421A2C9780083E8D9 /* Story.swift */,
+				A9F38EA521A2EC6200626558 /* madlib0_simple.txt */,
+				A9F38EA621A2EC6200626558 /* madlib1_tarzan.txt */,
+				A9F38EA321A2EC6200626558 /* madlib2_university.txt */,
+				A9F38EA421A2EC6200626558 /* madlib3_clothes.txt */,
+				A9F38EA721A2EC6200626558 /* madlib4_dance.txt */,
 			);
 			path = "Wessel-pset2";
 			sourceTree = "<group>";
@@ -121,8 +145,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F38EAA21A2EC6200626558 /* madlib0_simple.txt in Resources */,
+				A9F38EA821A2EC6200626558 /* madlib2_university.txt in Resources */,
 				A9A4E2CD21A2C8850083E8D9 /* LaunchScreen.storyboard in Resources */,
+				A9F38EA921A2EC6200626558 /* madlib3_clothes.txt in Resources */,
+				A9F38EAB21A2EC6200626558 /* madlib1_tarzan.txt in Resources */,
 				A9A4E2CA21A2C8850083E8D9 /* Assets.xcassets in Resources */,
+				A9F38EAC21A2EC6200626558 /* madlib4_dance.txt in Resources */,
 				A9A4E2C821A2C8830083E8D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,8 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A4E2C521A2C8830083E8D9 /* ViewController.swift in Sources */,
+				A9A4E2C521A2C8830083E8D9 /* Starter.swift in Sources */,
+				A9F38EB221A2F91C00626558 /* WordTyper.swift in Sources */,
 				A9A4E2C321A2C8830083E8D9 /* AppDelegate.swift in Sources */,
+				A9A4E2D521A2C9780083E8D9 /* Story.swift in Sources */,
+				A9F38EB021A2F8FA00626558 /* Storys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
