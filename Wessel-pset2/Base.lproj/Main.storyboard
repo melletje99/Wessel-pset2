@@ -43,17 +43,22 @@
                                     <segue destination="2qz-pc-YG7" kind="show" identifier="Start" id="x0O-0V-F7q"/>
                                 </connections>
                             </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1He-ww-OXK">
+                                <rect key="frame" x="79" y="488" width="216" height="65"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="GettingStarted" destination="k5W-Vx-EMU" id="RMm-bc-Gij"/>
+                        <outlet property="StoryPicker" destination="1He-ww-OXK" id="YBv-A8-9Wv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="50" y="27"/>
+            <point key="canvasLocation" x="48.799999999999997" y="26.53673163418291"/>
         </scene>
         <!--Word Filler-->
         <scene sceneID="asX-UE-XOP">
@@ -145,7 +150,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZf-xh-X9V">
-                                <rect key="frame" x="16" y="49" width="42" height="21"/>
+                                <rect key="frame" x="16" y="49" width="343" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -155,6 +160,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="PCE-4x-v3X"/>
                     </view>
+                    <connections>
+                        <outlet property="endStory" destination="SZf-xh-X9V" id="2h6-vA-gX2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dxb-wU-0gJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

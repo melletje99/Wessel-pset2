@@ -9,11 +9,13 @@ import UIKit
 
 class Storys: UIViewController {
     
+    @IBOutlet weak var endStory: UILabel!
+    var iets = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        WordTyper
-        //Story.init(withText: "madlib0_simple.txt")
+        endStory.text = iets
+        endStory.sizeToFit()
         // Do any additional setup after loading the view, typically from a nib.
     }
     

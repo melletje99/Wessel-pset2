@@ -14,8 +14,12 @@ class WordTyper: UIViewController {
     @IBOutlet weak var OkayButton: UIButton!
     
     
+    var text = String()
+    lazy var tekst = Story.init(withText: "\(text)")
+    var stor = String()
     
-    var tekst = Story.init(withText: "I wannabe a <job> when I grow up. Just like my dad. Life is <adjective> like that!")
+    
+    
     
     
     override func viewDidLoad() {
@@ -26,9 +30,15 @@ class WordTyper: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let st = segue.destination as! Storys
+        st.iets = stor
+    }
+    
     @IBAction func Okay(_ sender: UIButton) {
         tekst.fillInPlaceholder(word: wordType.text!)
         if tekst.isFilledIn {
+            stor = tekst.normalText
             performSegue(withIdentifier: "Story", sender: OkayButton)
         } else {
             updateScreen()
