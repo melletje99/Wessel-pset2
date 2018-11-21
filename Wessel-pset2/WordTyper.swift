@@ -12,6 +12,7 @@ class WordTyper: UIViewController {
     @IBOutlet weak var wordType: UITextField!
     @IBOutlet weak var worderType: UILabel!
     @IBOutlet weak var OkayButton: UIButton!
+    @IBOutlet weak var done: UILabel!
     
     
     var text = String()
@@ -36,19 +37,25 @@ class WordTyper: UIViewController {
     }
     
     @IBAction func Okay(_ sender: UIButton) {
-        tekst.fillInPlaceholder(word: wordType.text!)
-        if tekst.isFilledIn {
-            stor = tekst.normalText
-            performSegue(withIdentifier: "Story", sender: OkayButton)
+        if wordType.text! == "" {
+            done.text = "Fill in a valid word!"
         } else {
-            updateScreen()
+            tekst.fillInPlaceholder(word: wordType.text!)
+            if tekst.isFilledIn {
+                stor = tekst.normalText
+                performSegue(withIdentifier: "Story", sender: OkayButton)
+            } else {
+                updateScreen()
+            }
         }
     }
     
     func updateScreen() {
         wordType.placeholder = "\(tekst.nextPlaceholder!)"
+        wordType.text = ""
         RemainingWords.text = "\(tekst.remainingPlaceholders) word(s) left"
         worderType.text = "Please type a/an \(tekst.nextPlaceholder!)"
+        done.text = "Well Done!"
     }
     
     

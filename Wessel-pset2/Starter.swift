@@ -14,6 +14,7 @@ class Starter: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     var pickerData: [String] = [String]()
     var x = String()
     var i = Int()
+    var name = "madlib0_simple"
     
     
     override func viewDidLoad() {
@@ -44,11 +45,11 @@ class Starter: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         x = pickerData[row]
         i = row
+        name = "madlib\(i)_\(x)"
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let wordInputPage = segue.destination as! WordTyper
-        let name = "madlib\(i)_\(x)"
         let storyPath = Bundle.main.path(forResource: name, ofType: "txt")
         let text2 = try! String(contentsOfFile: storyPath!, encoding: .utf8)
 
