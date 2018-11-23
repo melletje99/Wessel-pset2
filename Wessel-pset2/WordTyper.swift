@@ -16,7 +16,7 @@ class WordTyper: UIViewController {
     
     
     var text = String()
-    lazy var tekst = Story.init(withText: "\(text)")
+    lazy var tekst: Story! = Story(withText: "\(text)")
     var stor = String()
     
     
