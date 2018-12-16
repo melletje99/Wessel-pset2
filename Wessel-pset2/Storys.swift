@@ -10,11 +10,11 @@ import UIKit
 class Storys: UIViewController {
     
     @IBOutlet weak var endStory: UILabel!
-    var iets = String()
+    var iets: NSAttributedString?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        endStory.text = iets
+        endStory.attributedText = iets
         endStory.sizeToFit()
         // Do any additional setup after loading the view, typically from a nib.
     }

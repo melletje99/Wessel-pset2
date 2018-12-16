@@ -17,7 +17,7 @@ class WordTyper: UIViewController {
     
     var text = String()
     lazy var tekst: Story! = Story(withText: "\(text)")
-    var stor = String()
+    var stor: NSAttributedString?
     
     
     
@@ -42,7 +42,7 @@ class WordTyper: UIViewController {
         } else {
             tekst.fillInPlaceholder(word: wordType.text!)
             if tekst.isFilledIn {
-                stor = tekst.normalText
+                stor = tekst.attributedText
                 performSegue(withIdentifier: "Story", sender: OkayButton)
             } else {
                 updateScreen()
